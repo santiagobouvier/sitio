@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En Mantenimiento</title>
+    <style>
+      body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      .bg-image {
+        /* Imagen para dispositivos móviles por defecto */
+        background-image: url('web-tdi-mobile.png'); /* Reemplaza 'imagen-mobile.jpg' con el nombre de tu archivo o URL para móviles */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      /* Media query para pantallas mayores a 768px de ancho */
+      @media (min-width: 768px) {
+        .bg-image {
+          /* Cambiamos la imagen para pantallas más grandes */
+          background-image: url('web-tdi.jpg'); /* Reemplaza con tu imagen de escritorio */
+        }
+      }
+    
+      .contenido {
+        text-align: center;
+        color: white; /* Cambia el color según necesites */
+      }
+    </style>
+    </head>
+    <body>
+    
+    <div class="bg-image">
+      <div class="contenido">
+  
+        
+      </div>
+    </div>
+    
+    </body>
+    </html>
